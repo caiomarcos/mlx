@@ -11,5 +11,5 @@ cmd = True
 
 while(cmd):
 	# line = sio.read(4607)
-	values = sio.read(5)
+	values = float(sio.read(5))
 	print(values)
